@@ -1,0 +1,6 @@
+somme = 0
+N = int(input("Entrez N : "))
+i = 0
+for i in range(0, N + 1):
+    somme = somme + N
+print(f"somme : {somme}")
