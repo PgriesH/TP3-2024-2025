@@ -1,0 +1,4 @@
+nb = int(input("Entrez un nombre : "))
+while nb != 100:
+    nb = int(input("Entrez un nombre : "))
+print("FIN")
