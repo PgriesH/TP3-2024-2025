@@ -1,0 +1,7 @@
+nb = int(input("Entrez un entier positif : "))
+if nb < 0:
+    print("invalide")
+else:
+    while nb != -1:
+        print(nb)
+        nb = nb - 1
