@@ -1,0 +1,22 @@
+valinf = 0
+valent = 0
+valsup = 0
+nb = 0
+while nb != 10:
+    n = int(input("Entrez un nombre : "))
+    if n < 0 or n > 20:
+        print("Valeur invalide !")
+    elif n < 10:
+        valinf = valinf + 1
+        nb  = nb + 1
+    elif n >= 10 and n <= 15:
+        valent = valent + 1
+        nb = nb + 1
+    else:
+        valsup = valsup +1
+        nb = nb + 1
+
+
+print(f"Valeurs inférieurs à 10: {valinf}")
+print(f"Valeurs entre 10 et 15: {valent}")
+print(f"valeurs suppérieurs à 15: {valsup}")
